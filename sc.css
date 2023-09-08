@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cls{
+    display: flex;
+    justify-content: space-between;
+    background-color: royalblue;
+}
+ul{
+    display: flex;
+}
+nav ul li{
+    margin: 50px 15px;
+}
+nav ul li a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+nav ul li a:hover{
+    color: green;
+    transition: all 0.5s;
+}
+span{
+    font-size: 50px;
+    font-family:fantasy;
+    font-weight: bold;
+    color: yellow;
+}
+body{
+    background-image: url(schoolimages/res.jfif);
+    background-size: cover;
+}
